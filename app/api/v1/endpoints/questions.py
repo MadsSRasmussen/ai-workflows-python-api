@@ -5,6 +5,6 @@ from app.services.questions import generate_variations_from_data
 
 router = APIRouter()
 
-@router.post("/")
+@router.post("")
 def generate_variations(question: QuestionGenerate):
     return generate_variations_from_data(question)
