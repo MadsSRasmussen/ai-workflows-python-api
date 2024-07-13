@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
 from app.api.v1.endpoints import questions
+from app.core.logger import logger
 
 app = FastAPI()
 
