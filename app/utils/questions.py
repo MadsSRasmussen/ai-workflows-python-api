@@ -1,5 +1,6 @@
 import re
 import random
+import numpy as np
 from typing import List
 from app.schemas.questions import VariableDefinition, VariableValue, QuestionGenerate, Question
 
